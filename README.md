@@ -90,6 +90,6 @@ Folder List:
  
 File List: 
  - CatchingBall.avi/.mp4: video files showing the simulation successfully capturing a ball. The kinematics of these simulations is shown in the manuscript.
- - CheckFingerFunction.slx: Simulink model utilizing Simscape Multibody to simulate the dynamics of the hand, the forces transmission of the pulleys, and the contact interactions with the ball.
+ - HandDynamicsModel.slx: Simulink model utilizing Simscape Multibody to simulate the dynamics of the hand, the forces transmission of the pulleys, and the contact interactions with the ball.
  - InitTestParams.m: MATLAB script that initializes the simulation paramters for the Simulink model. This script must be run before the Simulink model can be run.
  - PlotResults.m: Script to plot the results of the Simulink simulations and generate the figure presented in the manuscript. This script can be run after the Simulink simulation is complete.
