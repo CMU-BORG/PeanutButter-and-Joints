@@ -23,9 +23,9 @@ This repository serves as the home for the open-source Peanut Butter and Joints 
 > [!NOTE]
 > If you are interesting in utilizing or modifying this grasper or any of its subcomponents for your own <i>in roboto</i> investigations of human like grasping or robotic grasper development, please cite using the following DOI:
 > [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.XXXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXXX) 
-> <b>Above needs to be updated with correct DOI for either Living Machines paper or preprint archive</b>
+> <b>Above will to be updated with correct DOI upon publication</b>
 >
-> Williamson, Bennington, and Sukhnandan, <i>et al.</i>, "PB&J: Peanut Butter and Joints for Damped Articulation." (2025). <i>arXiv</i> <b>Place doi here</b>
+> Williamson, Bennington, and Sukhnandan, <i>et al.</i>, "PB&J: Peanut Butter and Joints for Damped Articulation." (2025).
 
 
 ## Overview:
