@@ -1,0 +1,19 @@
+# PeanutButter-and-Joints
+Paper: "PB&J: Peanut Butter and Joints for Damped Articulation"
+
+An open-source, low-cost, biomimetic robotic grasper platform modeled on the human hand, incorporating the effects of viscoelastic joint mechanics.
+
+An archived version of this repository is available through Zenodo: [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.XXXXXXXXX.svg)]()
+
+Authors:
+
+* Avery S. Williamson<sup>+</sup>
+* Michael J. Bennington<sup>+</sup>
+* Ravesh Sukhnandan<sup>+</sup>
+* Mrinali Nakhre
+* Yeumin Mao
+* Victoria A. Webster-Wood
+<i>All authors are affiliated with Carnegie Mellon University</i>
+<sup>+</sup>: These authors contributed equally to this manuscript.
+
+This repository serves as the home for the open-source Peanut Butter and Joints biomimetic robotic grasper. The design, modelings, and characterization of this grasper is detailed in the manuscript references above. This repository contains the design files (SolidWorks part and assembly files, STLs for 3D printed components, and engineering drawings (limited) ), simulation files and associated code, and experimental data associated with the above manuscript. 
