@@ -10,24 +10,28 @@ function norm_damp = Effective_Damping_Coeff_v2(N,w,delta,D,L_tilde,to_plot)
      - D: diameter of the total damper = 10 mm
      - dL: width of the channel between inner and outer fins at the end cap
           = 2 mm
-     - L_tilde: total length of the damper = 10 mm (CHECK THIS WITH THE DESIGN
-     FROM AVERY)
+     - L_tilde: total length of the damper = 10 mm
     
     Input Parameters:
      - N: number of inner fins [count]
      - w_in: wall width of inner fins [m]
      - w_out: wall width of outer fins [m]
 %}
-norm_damp = 0;
-%D = 0.010; % [m] total damper diameter
+
 D_eff = D - w; % [m] effective total damper diameter
 
-dL = delta;%0.0006; % [m] end cap channel width
-%L_tilde = 0.010; % [m] total damper length
-
+dL = delta; % [m] end cap channel width
 L = L_tilde - w - dL; % [m] overlap between the fins
 
+%{
+    Variable names:
+     - outer_fins, inner_fins: radius to the mid wall of the different fins
+     (this is equivalent to rho in the model).
+     - w_cent, ws_i, ws_out: wall widths of the different fin structures
+%}
+
 if N==1
+    % if there is only going to be one inner fin
     outer_fins = [0.5*D_eff];
     inner_fins = 0;
     w_cent = 2*(outer_fins(1) - delta - 0.5*w);
@@ -67,7 +71,8 @@ else
 end
 
 if w_cent < w
-    % check if the center pin is less than the wall
+    % check if the center pin is less than the wall thickness. this would
+    % be an unprintable geometry and thus should not be assigned a value
     norm_damp = 0;
     return;
 end
@@ -131,11 +136,6 @@ T_in = T_in + t_end(Rs_out(end),w);
 
 T_in = 4*pi*T_in;
 T_out = 4*pi*T_out;
-
-% fprintf('\nEffective Damping (inner): %.4e\n',T_in)
-% fprintf('\nEffective Damping (outer): %.4e\n',T_out)
-% fprintf('\nPercent Difference [(T_out - T_in)/T_in]: %.2f%%\n',100*(T_out - T_in)/T_in)
-
 
 norm_damp = mean([T_in,T_out]);
 end
