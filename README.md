@@ -3,7 +3,7 @@ Paper: "PB&J: Peanut Butter and Joints for Damped Articulation"
 
 An open-source, low-cost, biomimetic robotic grasper platform modeled on the human hand, incorporating the effects of viscoelastic joint mechanics.
 
-An archived version of this repository is available through Zenodo: [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.XXXXXXXXX.svg)]()
+An archived version of this repository is available through Zenodo: [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.15257954.svg)](https://doi.org/10.5281/zenodo.15257954) 
 
 Authors:
 
@@ -22,7 +22,7 @@ This repository serves as the home for the open-source Peanut Butter and Joints 
 
 > [!NOTE]
 > If you are interesting in utilizing or modifying this grasper or any of its subcomponents for your own <i>in roboto</i> investigations of human like grasping or robotic grasper development, please cite using the following DOI:
-> [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.XXXXXXXXX.svg)]() 
+> [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.XXXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXXX) 
 > <b>Above needs to be updated with correct DOI for either Living Machines paper or preprint archive</b>
 >
 > Williamson, Bennington, and Sukhnandan, <i>et al.</i>, "PB&J: Peanut Butter and Joints for Damped Articulation." (2025). <i>arXiv</i> <b>Place doi here</b>
